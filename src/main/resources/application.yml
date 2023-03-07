@@ -1,0 +1,13 @@
+#server:
+#  port: 8080  # 应用程序端口号
+
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/mydb  # 数据库连接URL
+#    username: myuser  # 数据库用户名
+#    password: mypassword  # 数据库密码
+
+logging:
+  level:
+    root: INFO  # 根日志记录级别
+    com.example: DEBUG  # com.example包的日志记录级别
